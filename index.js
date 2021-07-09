@@ -2,6 +2,12 @@ var ti=0;
 var ynum=0;
 var title_str="this is a web site";
 var m_x=0,m_y=0;
+
+function down_source()
+{
+    window.open("https://github.com/qiufuyu123/qos");
+}
+
 function getRandomColor(){
     var rgb='rgba('+Math.floor(Math.random()*255)+','
              +Math.floor(Math.random()*255)+','
